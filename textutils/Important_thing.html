@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <script> 
+     "use strict"
+     // // b = 9 ;  this will not give error if you will not use "use strict" it will import some strict which is very helpful. it not allow bug .
+     // let conf = confirm("Aye you sure") 
+     // console.log(conf) 
+     // about this operator 
+
+        // console.log(this)
+        // function myfunc(number){
+        //     console.log("The number is "+this) // in here I cannot use window object I can use outside the function it will give undefined
+        // }  
+
+    //     let myfunc = (number)=>{
+    //         console.log("The number is "+this) // this will give window object using arrow function 
+    //     }  
+
+    //  myfunc() ; 
+    // we can do the same thing with the help of object   
+    //    let o = {
+    //      run : this , 
+    //      m1 : function print(){
+    //         console.log(" "+this)
+    //      }
+    //    }  
+    //    console.log(o.run)
+    //    console.log(o.m1)   
+
+    // callback function 
+    setTimeout(()=>{
+        console.log("yayy")
+    },3000)  
+    console.log("mai neeche wait script hoon")   
+    
+
+
+       
+        // let obja = {
+        //     n:34,
+        //     m:64, 
+        //     func: function myfunc(number) {
+        //         console.log("The number is "+ number); 
+
+        //     }
+        // } 
+        // document.addEventListener("click", function click() {
+        //     console.log("clicked")
+        // }) 
+        // console.log(obja.func); 
+             
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
